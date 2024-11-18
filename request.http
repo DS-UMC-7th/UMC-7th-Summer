@@ -1,0 +1,14 @@
+POST http://localhost:3001/api/v1/users/signup
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "name": "홍길동",
+  "password": "password",
+  "gender": "M",
+  "birth": "1990-01-01",
+  "address": "서울시",
+  "detailAddress": "강남구",
+  "phoneNumber": "01012345678",
+  "preferences": [1, 2]
+}
